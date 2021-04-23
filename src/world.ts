@@ -13,6 +13,8 @@ export default class World {
 
 
 
+
+
   // 初期化
   constructor(message: string) {
     this.message = message

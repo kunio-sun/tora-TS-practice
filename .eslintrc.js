@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    // node:trueは意外に重要
     node: true,
     browser: true,
     es6: true

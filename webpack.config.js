@@ -12,7 +12,7 @@ module.exports = {
   output: {
     // __dirname はこのプロジェクトのルートのパスを表示
     path: path.join(__dirname, 'dist'),
-    //[name]はentory.bandleのファイル名を指定
+    //[name]はentory.bundleのファイル名を指定
     filename: 'bundle.js'
   },
   resolve: {

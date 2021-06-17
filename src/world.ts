@@ -8,7 +8,7 @@ export default class World {
   }
 
   // method
-  public sayHello(elem: HTMLElement | null) {
+  public sayHello(elem: HTMLElement | null): void {
     if (elem) {
       elem.innerText = this.message
     }

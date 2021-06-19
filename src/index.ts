@@ -15,12 +15,18 @@
 // unknownSample()
 
 // 04. 関数の型定義
-import { logMessage /* alwaysTHrowError */ } from './function/basic'
-import { /* isUserSignedIn,  */ isUserSignedIn2, sumProductsPrice } from './function/parameters'
+// import { logMessage /* alwaysTHrowError */ } from './function/basic'
+// import { /* isUserSignedIn,  */ isUserSignedIn2, sumProductsPrice } from './function/parameters'
 
-logMessage('こんにちはtypescript')
-// alwaysTHrowError(" いつもエラー");
-isUserSignedIn2('abc')
-isUserSignedIn2('faildSigndIn', 'kuni')
-const sum = sumProductsPrice(100, 120, 300)
-console.log('function parameters sample 5: ', sum)
+// logMessage('こんにちはtypescript')
+// // alwaysTHrowError(" いつもエラー");
+// isUserSignedIn2('abc')
+// isUserSignedIn2('faildSigndIn', 'kuni')
+// const sum = sumProductsPrice(100, 120, 300)
+// console.log('function parameters sample 5: ', sum)
+
+// 05. オブジェクトの型
+import objectSample from './object/object'
+import typeAliasSample from './object/alias'
+objectSample()
+typeAliasSample()

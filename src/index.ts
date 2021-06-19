@@ -31,8 +31,14 @@
 // objectSample()
 // typeAliasSample()
 
-// 06.
-import arraySample from './array/array'
-import tupleSample from './array/tuple'
-arraySample()
-tupleSample()
+// 06. 配列の型
+// import arraySample from './array/array'
+// import tupleSample from './array/tuple'
+// arraySample()
+// tupleSample()
+
+// 08. ジェネリック(汎用,総称)型とポリモーフィズム(多様性)
+import genericsSample from './generics/basic'
+import genericsAdvancedSample from './generics/advanced'
+genericsSample()
+genericsAdvancedSample()

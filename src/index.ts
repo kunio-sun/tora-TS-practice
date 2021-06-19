@@ -26,7 +26,13 @@
 // console.log('function parameters sample 5: ', sum)
 
 // 05. オブジェクトの型
-import objectSample from './object/object'
-import typeAliasSample from './object/alias'
-objectSample()
-typeAliasSample()
+// import objectSample from './object/object'
+// import typeAliasSample from './object/alias'
+// objectSample()
+// typeAliasSample()
+
+// 06.
+import arraySample from './array/array'
+import tupleSample from './array/tuple'
+arraySample()
+tupleSample()

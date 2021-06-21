@@ -42,3 +42,5 @@ import genericsSample from './generics/basic'
 import genericsAdvancedSample from './generics/advanced'
 genericsSample()
 genericsAdvancedSample()
+
+// 09.
